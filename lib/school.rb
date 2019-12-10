@@ -14,7 +14,7 @@ class School
    roster[grade]<< name
 end 
  def grade(grade)
-   roster[grade].sort #implicitly print grade for hash array 
+   roster[grade] #implicitly print grade for hash array 
  end 
   
   def sort
